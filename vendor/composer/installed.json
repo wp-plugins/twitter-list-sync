@@ -1,0 +1,36 @@
+[
+    {
+        "name": "j7mbo/twitter-api-php",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/glenscott/twitter-api-php",
+            "reference": "299c3f934d54c7874fb3bc77d3231f7fdbd22df9"
+        },
+        "time": "2015-04-24 18:11:55",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "files": [
+                "TwitterAPIExchange.php"
+            ]
+        },
+        "license": [
+            "GNU Public License"
+        ],
+        "authors": [
+            {
+                "name": "James Mallison",
+                "homepage": "https://github.com/j7mbo/twitter-api-php"
+            }
+        ],
+        "description": "Simple PHP Wrapper for Twitter API v1.1 calls",
+        "homepage": "https://github.com/j7mbo/twitter-api-php",
+        "keywords": [
+            "API",
+            "PHP",
+            "twitter"
+        ]
+    }
+]
