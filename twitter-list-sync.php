@@ -81,7 +81,7 @@ function twitter_list_sync_do_this_hourly() {
 
 	if ( isset( $users->users ) ) {
 		foreach ( $users->users as $user ) {
-			$twitterUsers[] = $user->screen_name;
+			$twitterUsers[] = strtolower( $user->screen_name );
 		}
 	}
 
@@ -96,7 +96,7 @@ function twitter_list_sync_do_this_hourly() {
 		if ( $twitterScreenName ) {
 			// it seems adding a @ before the screenname is a common issue, so let's strip it off
 			$twitterScreenName = preg_replace( '/^@/', '', $twitterScreenName );
-			$wordpressUsers[] = $twitterScreenName;
+			$wordpressUsers[] = strtolower( $twitterScreenName );
 		}
 	}
 
