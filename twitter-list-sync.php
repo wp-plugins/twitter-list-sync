@@ -3,7 +3,7 @@
 /**
  * Plugin Name: Twitter List Sync
  * Description: Keep a Twitter list up to date with users from your site.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Glen Scott
  * Author URI: http://www.glenscott.co.uk
  * License: GPL2
